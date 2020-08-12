@@ -1,0 +1,22 @@
+{
+    "name": "bli-swapi",
+    "short_name": "bli-swapi",
+    "theme_color": "#f9d442b9",
+    "background_color": "#f9d442b9",
+    "orientation": "portrait",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "Scope": "/",
+    "icons": [
+      {
+        "src": "img/icons/android-chrome-512x512.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
