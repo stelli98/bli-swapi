@@ -50,20 +50,20 @@ ul {
   font-size: 0;
   position: relative;
   padding: 0;
-  width: 400px;
-  margin: 40px auto;
-  user-select: none;
-  box-sizing: border-box;
+  width: 100%;
+  margin: 16px auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 li {
-  display: inline-block;
-  padding: 0.5rem 0.75rem;
-  background: #2f2c2c;
+  width: 28%;
+  border-radius: 16px;
+  padding: 4px 8px;
+  background: #f1f1f1;
   font-size: 16px;
   text-align: center;
-  line-height: 60px;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
   position: relative;
   overflow: hidden;
@@ -71,7 +71,7 @@ li {
 }
 
 .active {
-  border-bottom: solid 3px #f9d442b9;
-  padding: 0.4rem 0.75rem;
+  background-image: linear-gradient(106deg, #f8a33f, #f37021);
+  color: #fff;
 }
 </style>

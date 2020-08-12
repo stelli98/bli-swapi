@@ -1,8 +1,19 @@
 <template>
   <div id="app">
+    <Header />
     <router-view />
   </div>
 </template>
+
+<script>
+import Header from "@/components/Header";
+export default {
+  name: "App",
+  components: {
+    Header
+  }
+};
+</script>
 
 <style lang="scss">
 #app {
@@ -10,5 +21,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+}
+body {
+  margin: 0;
+}
+#app {
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+  max-width: 600px;
 }
 </style>
