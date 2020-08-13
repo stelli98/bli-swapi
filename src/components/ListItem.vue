@@ -27,7 +27,7 @@ export default {
     ...mapGetters(["selectedCategory"])
   },
   methods: {
-    ...mapActions(["getDataPerCategory"]),
+    ...mapActions(["getDataPerCategory"])
   },
   mounted() {
     this.getDataPerCategory({ name: this.selectedCategory });
