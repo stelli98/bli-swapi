@@ -3,7 +3,7 @@
     <li
       v-for="(item, index) in items"
       :key="index + 1"
-      :class="{ active: index == selectedItem }"
+      :class="{ active: item == params }"
       @click="setSelectedItem(index, item)"
     >
       {{ item }}
@@ -12,8 +12,6 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from "vuex";
-
 export default {
   data() {
     return {
@@ -22,10 +20,11 @@ export default {
     };
   },
   computed: {
-    ...mapGetters(["categories"])
+    params() {
+      return this.$route.query.q;
+    }
   },
   methods: {
-    ...mapActions(["getCategories"]),
     setSelectedItem(index, name) {
       this.addToParam(name);
       this.selectedItem = index;
@@ -40,7 +39,6 @@ export default {
   },
   mounted() {
     this.addToParam("people");
-    this.getCategories();
   }
 };
 </script>

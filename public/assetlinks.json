@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.example.bli_swapi",
+    "sha256_cert_fingerprints": ["ED:04:27:58:A6:C7:5E:7E:27:96:8D:85:A0:F1:DD:2D:81:EF:A0:A4:75:E7:AA:FD:F6:93:A1:62:DB:C2:9B:FF"] }
+}]

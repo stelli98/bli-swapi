@@ -1,10 +1,6 @@
 <template>
   <div class="list-item">
-    <div
-      class="item"
-      v-for="(item, index) in dataPerCategory.results"
-      :key="index + 1"
-    >
+    <div class="item" v-for="(item, index) in dataPerCategory" :key="index + 1">
       <div class="item__inside">
         <span class="info">Name: </span>
         <span class="value">{{ item.name || item.title }}</span>
