@@ -10,43 +10,51 @@
     "icons": [
     {
       "sizes": "36x36",
-      "src": "img/icons/blibli-36.png",
-      "type": "image/png"
+      "src": "img/icons/maskable_icon-36.png",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "sizes": "48x48",
-      "src": "img/icons/blibli-48.png",
-      "type": "image/png"
+      "src": "img/icons/maskable_icon-48.png",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "sizes": "72x72",
-      "src": "img/icons/blibli-72.png",
-      "type": "image/png"
+      "src": "img/icons/maskable_icon-72.png",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "sizes": "96x96",
-      "src": "img/icons/blibli-96.png",
-      "type": "image/png"
+      "src": "img/icons/maskable_icon-96.png",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "sizes": "128x128",
-      "src": "img/icons/blibli-128.png",
-      "type": "image/png"
+      "src": "img/icons/maskable_icon-128.png",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "sizes": "144x144",
-      "src": "img/icons/blibli-144.png",
-      "type": "image/png"
+      "src": "img/icons/maskable_icon-144.png",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "sizes": "192x192",
-      "src": "img/icons/blibli-192.png",
-      "type": "image/png"
+      "src": "img/icons/maskable_icon-192.png",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "sizes": "512x512",
-      "src": "img/icons/blibli-512.png",
-      "type": "image/png"
+      "src": "img/icons/maskable_icon-512.png",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
