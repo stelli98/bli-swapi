@@ -24,19 +24,17 @@ import { mapGetters, mapActions } from "vuex";
 export default {
   computed: {
     ...mapGetters(["dataPerCategory"]),
-    params() {
-      return this.$route.query.q;
-    }
+    ...mapGetters(["selectedCategory"])
   },
   methods: {
-    ...mapActions(["getDataPerCategory"])
+    ...mapActions(["getDataPerCategory"]),
   },
   mounted() {
-    this.getDataPerCategory({ name: this.params });
+    this.getDataPerCategory({ name: this.selectedCategory });
   },
   watch: {
-    params() {
-      this.getDataPerCategory({ name: this.params });
+    selectedCategory() {
+      this.getDataPerCategory({ name: this.selectedCategory });
     }
   }
 };
